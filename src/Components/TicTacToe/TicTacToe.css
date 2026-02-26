@@ -1,0 +1,65 @@
+.title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.board {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    color: #222;
+    border: 2px solid #222;
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.game-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.reset-btn {
+    width: fit-content;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s;
+    position: relative;
+    top: 0;
+    box-shadow: 0 7px 0px rgb(175, 0, 0);
+}
+
+.reset-btn:active {
+    top: 3px;
+    box-shadow: 0 2px 0px rgb(175, 0, 0);
+    transition: all .2s;
+}
