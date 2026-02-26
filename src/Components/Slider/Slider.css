@@ -1,0 +1,47 @@
+.slider {
+    width: 800px;
+    height: 330px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.btn-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sl {
+    width: 75%;
+    height: 100%;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.btn {
+    width: fit-content;
+    padding: 8px 17px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s;
+    position: relative;
+    top: 0;
+    box-shadow: 0 7px 0px #333;
+}
+
+.btn:active {
+    top: 3px;
+    box-shadow: 0 2px 0px #333;
+    transition: all .2s;
+}
