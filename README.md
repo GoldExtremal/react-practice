@@ -19,7 +19,7 @@
 
 ## 🖼 Превью
 
-[![Preview](./public/preview.png)]
+![Preview](./public/preview.png)
 
 ---
 
