@@ -1,0 +1,64 @@
+.card-counters {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    /* margin-bottom: 30px; */
+}
+
+.counter-btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all .2s;
+    position: relative;
+    top: 0;
+}
+
+.decrement {
+    background-color: red;
+    box-shadow: 0 4px 0px rgb(175, 0, 0);
+}
+
+.decrement:active {
+    top: 2px;
+    box-shadow: 0 1px 0px rgb(175, 0, 0);
+    transition: all .2s;
+}
+
+.increment {
+    background-color: #2def1b;
+    box-shadow: 0 4px 0px #137b0a;
+}
+
+.increment:active {
+    top: 2px;
+    box-shadow: 0 1px 0px #137b0a;
+    transition: all .2s;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
